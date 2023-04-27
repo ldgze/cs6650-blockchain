@@ -1,0 +1,50 @@
+{
+  "groups": [
+    {
+      "name": "block",
+      "type": "com.cs6650.blockchain.data.BlockCache",
+      "sourceType": "com.cs6650.blockchain.data.BlockCache"
+    }
+  ],
+  "properties": [
+    {
+      "name": "block.address",
+      "type": "java.lang.String",
+      "description": "The string of addresses of the nodes to connect to.",
+      "sourceType": "com.cs6650.blockchain.data.BlockCache"
+    },
+    {
+      "name": "block.block-chain",
+      "type": "java.util.List<com.cs6650.blockchain.data.Block>",
+      "description": "The list of blocks in the blockchain for this node.",
+      "sourceType": "com.cs6650.blockchain.data.BlockCache"
+    },
+    {
+      "name": "block.difficulty",
+      "type": "java.lang.Integer",
+      "description": "The difficulty of the proof-of-work algorithm used for mining.",
+      "sourceType": "com.cs6650.blockchain.data.BlockCache",
+      "defaultValue": 0
+    },
+    {
+      "name": "block.p2pport",
+      "type": "java.lang.Integer",
+      "description": "The port number for the P2P server on this node.",
+      "sourceType": "com.cs6650.blockchain.data.BlockCache",
+      "defaultValue": 0
+    },
+    {
+      "name": "block.packed-transactions",
+      "type": "java.util.List<com.cs6650.blockchain.data.Transaction>",
+      "description": "The list of transactions that have been packed and saved.",
+      "sourceType": "com.cs6650.blockchain.data.BlockCache"
+    },
+    {
+      "name": "block.sockets-list",
+      "type": "java.util.List<org.java_websocket.WebSocket>",
+      "description": "The list of sockets for this node.",
+      "sourceType": "com.cs6650.blockchain.data.BlockCache"
+    }
+  ],
+  "hints": []
+}
