@@ -1,10 +1,10 @@
 server:
-    port: 8080
+    port: 8100
 
 block:
     ## Set the difficulty so that the first 'difficulty' bits of the hash are all 0s to satisfy the computation result
     difficulty: 4
     ## The current node's p2p server port number
-    p2pport: 7001
+    p2pport: 7003
     ## Addresses of the nodes to connect to
-    address: ws://54.208.143.235:7002 ws://54.221.120.196:7003
+    address: ws://54.160.29.38:7001 ws://54.208.143.235:7002
